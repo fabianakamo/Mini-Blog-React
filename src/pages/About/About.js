@@ -6,11 +6,11 @@ const About = () => {
   return (
     <div className={styles.about}>
       <h2>
-        Sobre o Mini <span>Blog</span>
+        About Mini <span>Blog</span>
       </h2>
-      <p>Um blog com React e Firebase :D</p>
+      <p>A blog with React and Firebase :D</p>
       <Link to="/posts/create" className="btn">
-        Criar Post
+        Create Post
       </Link>
     </div>
   );

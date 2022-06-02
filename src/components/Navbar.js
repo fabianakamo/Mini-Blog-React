@@ -32,7 +32,7 @@ const Navbar = () => {
                 to="/login"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Entrar
+                Log In
               </NavLink>
             </li>
             <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 to="/register"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Cadastrar
+                Sign Up
               </NavLink>
             </li>
           </>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 to="/posts/create"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Novo Post
+                New Post
               </NavLink>
             </li>
             <li>
@@ -70,12 +70,12 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
-            Sobre
+            About
           </NavLink>
         </li>
         {user && (
           <li>
-            <button onClick={logout}>Sair</button>
+            <button onClick={logout}>Log Out</button>
           </li>
         )}
       </ul>
